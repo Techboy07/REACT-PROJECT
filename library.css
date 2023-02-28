@@ -1,0 +1,75 @@
+.stretch {
+  width: 100%;
+}
+
+.container {
+  margin: 0 15vw;
+}
+
+.subCard {
+
+  height: 47%;
+}
+
+.subCard2 {
+  width: 100%;
+  height: 88%;
+}
+
+.card {
+  width: 222px;
+  height: 230px;
+}
+
+.card2 {
+  width: 222px;
+  flex-direction: column;
+  height: 150px;
+}
+
+.card3 {
+  width: 340px;
+  height: 320px;
+}
+
+.mb-5 {
+  margin-bottom: 5vw;
+}
+
+.mt-5 {
+  margin-top: 5vw;
+}
+
+.border {
+  border: solid rgb(6, 109, 66) 1px;
+}
+
+.flex-inline {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contain {
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+p {
+  font-size: 0.7rem;
+  padding: 2px;
+}

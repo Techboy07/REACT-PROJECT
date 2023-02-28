@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+.pic {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero {
+  flex-direction: column;
+}
+.navMenu {
+  flex-direction: column;
+  display: none;
+  height: 24vw;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2px;
+}
+
+.navBtn {
+  cursor: pointer;
+  display: none;
+}
+.navBtn:checked ~ ul {
+  display: flex;
+}
+.nav2 {
+  display: flex;
+  justify-content: center;
+}
+.bnav {
+  gap: 30px;
+  justify-content: space-evenly;
+  
+  
+}
+  .exhibition2,
+  .exhibition1 ,.featured{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+  } 
+  .featured{
+   margin: 2vw;
+   align-items: center;
+  }
+/*−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−*/
+
+@media screen and (min-width: 850px) {
+  .navMenu,
+  .hero,
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .navMenu {
+    height: 100%;
+    /* width: 33%;*/
+    padding: 0;
+    margin-bottom: 0;
+  }
+  #navSwitch {
+    display: none;
+  }
+  #navBrand {
+    margin: 0;
+  }
+  .nav {
+    justify-content: space-between;
+    align-items: center;
+   margin: 2vw 0 5vw;
+  }
+  .hero {
+    justify-content: center;
+  }
+  #imageBox {
+    width: 70%;
+    height: 100%;
+  }
+  .description {
+    margin-top: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  .navItem {
+    margin-left: 20px;
+  }
+
+  .exhibition2,
+  .exhibition1 {
+    display: inline-flex;
+    justify-content: space-between;
+   flex-direction: row;
+  }
+  .cta {
+    align-items: center;
+  }
+  .featured {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 15vw;
+  }
+}
